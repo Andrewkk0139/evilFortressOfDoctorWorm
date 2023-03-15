@@ -66,27 +66,27 @@ public class DoorTrigger : MonoBehaviour
     //Check if all switches are "green" (enabled).
     public void SwitchCheck()
     {
+        Debug.Log("switchCheck on");
         //When we start the function, switchesEnabled is true. 
-        bool switchesEnabled = true;
+        bool switchesEnabled = false;
 
         //Check all indexes in the btnObjects array
         for (int switches = 0; switches < buttons.Length; switches++)
         {
             //Get the SpriteRenderer component of the btnObjects index. 
-            var thisSwitch = btnObjects[switches].GetComponent<SpriteRenderer>();
-
+            var thisSwitch = btnObjects[0].GetComponent<SpriteRenderer>();           
             //if it is enabled, then green is showing. If not, red is showing
-            if (!thisSwitch.enabled)
-            {
+            if(thisSwitch.enabled){
+            
                 //if any of the switches aren't green, then switchesEnabled is false and we don't need to check anymore
-                switchesEnabled = false;
+                switchesEnabled = true;
                 break;
-            }
         }
-
+        }
         //If switchesEnabled is still true, then we can open the door.
         if (switchesEnabled)
         {
+            Debug.Log("mhm");
             Open();
         }
 

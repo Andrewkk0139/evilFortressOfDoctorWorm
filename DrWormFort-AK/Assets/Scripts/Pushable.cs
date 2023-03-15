@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pushable : MonoBehaviour
 {
     // this script pushes all rigidbodies that the character touches
-    float pushPower = 1.0f;
+    float pushPower = 5.0f;
 
     //public AudioClip scrape;
 

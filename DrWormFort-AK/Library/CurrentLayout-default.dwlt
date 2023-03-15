@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 889
     height: 676
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 889
     height: 626
-  m_MinSize: {x: 678, y: 492}
+  m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 104
+  controlID: 37
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 201
     height: 280
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -150,7 +150,7 @@ MonoBehaviour:
     y: 0
     width: 889
     height: 676
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -223,10 +223,10 @@ MonoBehaviour:
     y: 0
     width: 613
     height: 626
-  m_MinSize: {x: 403, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 78
+  controlID: 46
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,10 +248,10 @@ MonoBehaviour:
     y: 0
     width: 613
     height: 280
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 79
+  controlID: 47
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Ninja34\Documents\GitHub\evilFortressOfDoctorWorm\DrWormFort-AK
+  m_LastProjectPath: C:\Users\Ninja33\Documents\GitHub\evilFortressOfDoctorWorm\DrWormFort-AK
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 824a0000
-    m_LastClickedID: 19074
-    m_ExpandedIDs: 00000000c449000000ca9a3b
+    scrollPos: {x: 0, y: 3}
+    m_SelectedIDs: 9a4e0000
+    m_LastClickedID: 20122
+    m_ExpandedIDs: 00000000824e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000824e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -448,7 +448,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 200
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -480,24 +480,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 50}
-      m_SelectedIDs: fcdcffff
-      m_LastClickedID: -8964
-      m_ExpandedIDs: 06d3ffff04deffff9cedffffd2edffff88faffff1e65000050650000
+      scrollPos: {x: 0, y: 32}
+      m_SelectedIDs: ca02ffff
+      m_LastClickedID: -64822
+      m_ExpandedIDs: b8fffeff1002ffffb602ffff8403ffff8e03ffff9603ffff9a03ffffb203ffff6c0bffff560fffffa215ffffe619ffff842fffff963fffff6a40ffff3041ffff1e46ffff3246ffff3446ffff064affff524effff584effff6c4efffff44fffff3c54ffff5054ffff6c55ffff5e5affff725afffffa5bffffb462ffffc862ffffca62ffff8474ffff9874ffff2076ffff507fffff6c8dffff2499ffff8c9fffff2aa2ffffe6a6fffff4aaffff1caffffff4bdffffa8beffff86c2ffff6ec6ffff144c0000404c0000329e0000489e000010a5000026a5000080c300008ac30000d0d60000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: LaserNode
-        m_OriginalName: LaserNode
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -15564
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.32, y: 1.2, z: 2.0396712}
+    m_Target: {x: 0.18532372, y: -184.21603, z: -97.578606}
     speed: 2
-    m_Value: {x: -9.32, y: 1.2, z: 2.0396712}
+    m_Value: {x: 0.18532372, y: -184.21603, z: -97.578606}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -587,25 +587,25 @@ MonoBehaviour:
         m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
-      m_Size: {x: 0, y: 0}
+      m_Size: {x: 1, y: 1}
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.34588984, y: -0.07308774, z: 0.027030988, w: 0.9350388}
+    m_Target: {x: -0.016648965, y: -0.8485425, z: 0.5282306, w: -0.026764855}
     speed: 2
-    m_Value: {x: 0.34588814, y: -0.07308738, z: 0.027030855, w: 0.9350342}
+    m_Value: {x: -0.016648585, y: -0.8485232, z: 0.52821857, w: -0.026764246}
   m_Size:
-    m_Target: 4.1869674
+    m_Target: 139.72847
     speed: 2
-    m_Value: 4.1869674
+    m_Value: 139.72847
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 0.70065
+    m_SpeedNormalized: 0.35
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -616,7 +616,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.2603727, y: 0.07898325, z: -0.021370418, w: -0.9620528}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -732,10 +732,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 476
+    y: 361
+    width: 612
+    height: 325
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:

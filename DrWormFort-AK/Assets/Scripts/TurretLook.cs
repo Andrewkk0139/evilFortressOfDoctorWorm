@@ -16,6 +16,13 @@ public class TurretLook : MonoBehaviour
 
     void Update() 
     {
+        // set lasersAreOff to public so we can use it 
+        // in other scripts (classes)
+        if(laserSwitch.lasersAreOff){
+            laser.SetActive(false);
+            //return; will stop the method completly
+            return;
+        }
         transform.LookAt(player);
     }
 }

@@ -7,6 +7,7 @@ public class LaserSwitch : MonoBehaviour
     private GameObject switchIcon;
     private AudioSource playBeep;
 
+    public bool lasersAreOff = false;
 
 
     private void Start()
@@ -31,7 +32,7 @@ public class LaserSwitch : MonoBehaviour
         switchIcon.GetComponent<SpriteRenderer>().enabled = true;
         switchIcon = this.transform.Find("red").gameObject;
         switchIcon.GetComponent<SpriteRenderer>().enabled = false;
-
+        lasersAreOff = true;
     }
 
     public void OnTriggerExit(Collider other)
